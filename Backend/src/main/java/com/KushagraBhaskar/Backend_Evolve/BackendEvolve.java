@@ -1,13 +1,13 @@
-package com.KushagraBhaskar.Backend_MealMetrics;
+package com.KushagraBhaskar.Backend_Evolve;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BackendMealMetricsApplication {
+public class BackendEvolve {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BackendMealMetricsApplication.class, args);
+		SpringApplication.run(BackendEvolve.class, args);
 	}
 
 }
