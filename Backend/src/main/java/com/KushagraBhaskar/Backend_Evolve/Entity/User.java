@@ -29,5 +29,8 @@ public class User {
     private String email;
 
     @OneToMany(mappedBy = "user")
-    List<Food> foods;
+    List<Meal> meals;
+
+    @OneToMany(mappedBy = "user")
+    List<Mood> moods;
 }
