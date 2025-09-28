@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.List;
@@ -12,6 +13,7 @@ import java.util.List;
 @Getter
 @Setter
 @AllArgsConstructor
+@NoArgsConstructor
 public class User {
 
     @Id
@@ -29,8 +31,8 @@ public class User {
     private String email;
 
     @OneToMany(mappedBy = "user")
-    List<Meal> meals;
+    private List<Meal> meals;
 
     @OneToMany(mappedBy = "user")
-    List<Mood> moods;
+    private List<Mood> moods;
 }

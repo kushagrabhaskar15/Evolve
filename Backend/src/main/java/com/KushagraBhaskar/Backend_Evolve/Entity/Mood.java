@@ -4,6 +4,7 @@ import com.KushagraBhaskar.Backend_Evolve.UsedEnums.CurrentMood;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDateTime;
@@ -12,7 +13,9 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @AllArgsConstructor
+@NoArgsConstructor
 public class Mood {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long moodId;

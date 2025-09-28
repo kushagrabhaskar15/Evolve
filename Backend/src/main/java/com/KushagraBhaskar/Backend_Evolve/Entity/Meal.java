@@ -29,4 +29,7 @@ public class Meal {
     @JoinColumn(name = "user_id",
                 nullable = false)
     private User user;
+
+    @OneToOne(mappedBy = "meal")
+    private Nutrition nutrition;
 }
