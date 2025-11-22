@@ -46,7 +46,7 @@ export default function Navbar() {
             <span className="sr-only">Your Company</span>
             <img
               alt=""
-              src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+              src="src\assets\heart-svgrepo-com.svg"
               className="h-8 w-auto"
             />
           </a>
