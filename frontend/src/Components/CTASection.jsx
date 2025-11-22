@@ -3,7 +3,7 @@ import React from "react";
 
 function CTASection() {
   return (
-    <div className="bg-blue-50 h-[22rem] flex">
+    <div className="bg-blue-50 h-[30rem] flex">
         <div className="w-fit relative mx-auto mt-[6rem] space-y-5">
             <div>
                 <h4 className="text-5xl font-bold"><span className="text-red-700">Evolve</span> your habits, transform your life</h4>
