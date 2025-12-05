@@ -2,17 +2,19 @@ import React from 'react'
 
 function ComponentsLayout(props) {
   return (
-    <div className='h-[25rem] w-[20rem] border rounded-xl border-gray-400 p-4'>
+    <>
+    <div className='h-[45vh] w-[20vw] border rounded-xl border-gray-400 p-4 shadow-md hover:shadow-lg transform-gpu will-change-transform transition-transform duration-300 ease-in-out hover:-translate-y-[2%] hover:scale-102 hover:cursor-pointer'>
         <div>
-            <img src={props.img} className=" overflow-hidden h-[10rem] mx-auto rounded-2xl"></img>
+            <img src={props.img} className="my-[3vh] overflow-hidden h-[15vh] mx-auto rounded-2xl"></img>
         </div>
-        <div className='mx-auto font-semibold text-3xl font-serif'>
+        <div className='mb-[2vh] mx-auto font-semibold text-2xl font-serif'>
             <h6>{props.heading}</h6>
         </div>
-        <div>
+        <div className='mx-auto'>
             <p>{props.desc}</p>
         </div>
     </div>
+    </>
   )
 }
 
